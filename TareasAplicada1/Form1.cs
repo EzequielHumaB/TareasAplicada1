@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TareasAplicada1.UI.Registros;
 
 namespace TareasAplicada1
 {
@@ -15,6 +16,24 @@ namespace TareasAplicada1
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Capitulo5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Capitulo6ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Capitulo1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FactorialCapitulo5 factorial = new FactorialCapitulo5();
+            factorial.StartPosition = FormStartPosition.CenterParent;
+            factorial.Show();
+
         }
     }
 }
