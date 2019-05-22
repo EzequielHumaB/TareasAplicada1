@@ -19,12 +19,6 @@ namespace TareasAplicada1.UI.Registros
             InitializeComponent();
         }
 
-        private void NumericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
-
-
-        }
 
         private void NumericUpDownNumeroIngresado_ValueChanged(object sender, EventArgs e)
         {

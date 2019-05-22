@@ -35,5 +35,20 @@ namespace TareasAplicada1
             factorial.Show();
 
         }
+
+        private void EjercicioDeAgendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AgendaFormulario agenda = new AgendaFormulario();
+            agenda.StartPosition = FormStartPosition.CenterScreen;
+            agenda.Show();
+
+        }
+
+        private void DiccionarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DiccionarioFormulario diccionario = new DiccionarioFormulario();
+            diccionario.StartPosition = FormStartPosition.CenterScreen;
+            diccionario.Show();
+        }
     }
 }

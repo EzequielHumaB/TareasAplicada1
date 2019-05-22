@@ -33,6 +33,8 @@
             this.capitulo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capitulo2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capituloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejercicioDeAgendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.diccionarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,9 +74,26 @@
             // 
             // capituloToolStripMenuItem
             // 
+            this.capituloToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ejercicioDeAgendaToolStripMenuItem,
+            this.diccionarioToolStripMenuItem});
             this.capituloToolStripMenuItem.Name = "capituloToolStripMenuItem";
             this.capituloToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.capituloToolStripMenuItem.Text = "Capitulo 7";
+            // 
+            // ejercicioDeAgendaToolStripMenuItem
+            // 
+            this.ejercicioDeAgendaToolStripMenuItem.Name = "ejercicioDeAgendaToolStripMenuItem";
+            this.ejercicioDeAgendaToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
+            this.ejercicioDeAgendaToolStripMenuItem.Text = "Ejercicio de Agenda";
+            this.ejercicioDeAgendaToolStripMenuItem.Click += new System.EventHandler(this.EjercicioDeAgendaToolStripMenuItem_Click);
+            // 
+            // diccionarioToolStripMenuItem
+            // 
+            this.diccionarioToolStripMenuItem.Name = "diccionarioToolStripMenuItem";
+            this.diccionarioToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
+            this.diccionarioToolStripMenuItem.Text = "Diccionario";
+            this.diccionarioToolStripMenuItem.Click += new System.EventHandler(this.DiccionarioToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -99,6 +118,8 @@
         private System.Windows.Forms.ToolStripMenuItem capitulo1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem capitulo2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem capituloToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ejercicioDeAgendaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem diccionarioToolStripMenuItem;
     }
 }
 
