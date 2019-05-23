@@ -35,6 +35,9 @@
             this.capituloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejercicioDeAgendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.diccionarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.capitulo8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordenarPalabrasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.horaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +57,8 @@
             this.capitulosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.capitulo1ToolStripMenuItem,
             this.capitulo2ToolStripMenuItem,
-            this.capituloToolStripMenuItem});
+            this.capituloToolStripMenuItem,
+            this.capitulo8ToolStripMenuItem});
             this.capitulosToolStripMenuItem.Name = "capitulosToolStripMenuItem";
             this.capitulosToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
             this.capitulosToolStripMenuItem.Text = "Capitulos";
@@ -95,6 +99,28 @@
             this.diccionarioToolStripMenuItem.Text = "Diccionario";
             this.diccionarioToolStripMenuItem.Click += new System.EventHandler(this.DiccionarioToolStripMenuItem_Click);
             // 
+            // capitulo8ToolStripMenuItem
+            // 
+            this.capitulo8ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ordenarPalabrasToolStripMenuItem,
+            this.horaToolStripMenuItem});
+            this.capitulo8ToolStripMenuItem.Name = "capitulo8ToolStripMenuItem";
+            this.capitulo8ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.capitulo8ToolStripMenuItem.Text = "Capitulo 8";
+            // 
+            // ordenarPalabrasToolStripMenuItem
+            // 
+            this.ordenarPalabrasToolStripMenuItem.Name = "ordenarPalabrasToolStripMenuItem";
+            this.ordenarPalabrasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.ordenarPalabrasToolStripMenuItem.Text = "Ordenar Palabras";
+            this.ordenarPalabrasToolStripMenuItem.Click += new System.EventHandler(this.OrdenarPalabrasToolStripMenuItem_Click);
+            // 
+            // horaToolStripMenuItem
+            // 
+            this.horaToolStripMenuItem.Name = "horaToolStripMenuItem";
+            this.horaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.horaToolStripMenuItem.Text = "Hora";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -120,6 +146,9 @@
         private System.Windows.Forms.ToolStripMenuItem capituloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejercicioDeAgendaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem diccionarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem capitulo8ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ordenarPalabrasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem horaToolStripMenuItem;
     }
 }
 

@@ -50,5 +50,13 @@ namespace TareasAplicada1
             diccionario.StartPosition = FormStartPosition.CenterScreen;
             diccionario.Show();
         }
+
+        private void OrdenarPalabrasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrdenaPalabrasFormulario ordena = new OrdenaPalabrasFormulario();
+            ordena.StartPosition = FormStartPosition.CenterScreen;
+            ordena.Show();
+
+        }
     }
 }

@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="BLL\AgendaTelefonica.cs" />
     <Compile Include="BLL\Capitulo7Diccionario.cs" />
+    <Compile Include="BLL\Horas.cs" />
+    <Compile Include="BLL\OrdenarPalabrasAlfabeticamente.cs" />
     <Compile Include="BLL\PromedioArreglos.cs" />
     <Compile Include="BLL\SacarNumeroFactorial.cs" />
     <Compile Include="Form1.cs">
@@ -76,6 +78,12 @@
     <Compile Include="UI\Registros\FactorialCapitulo5.Designer.cs">
       <DependentUpon>FactorialCapitulo5.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Registros\OrdenaPalabrasFormulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Registros\OrdenaPalabrasFormulario.Designer.cs">
+      <DependentUpon>OrdenaPalabrasFormulario.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Registros\FactorialCapitulo5.resx">
       <DependentUpon>FactorialCapitulo5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Registros\OrdenaPalabrasFormulario.resx">
+      <DependentUpon>OrdenaPalabrasFormulario.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

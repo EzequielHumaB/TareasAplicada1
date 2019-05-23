@@ -27,5 +27,10 @@ namespace TareasAplicada1.UI.Registros
             labelTelefonoPersona.Text = AgendaTelefonica.devolverTelefono(telefono);
 
         }
+
+        private void AgendaFormulario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

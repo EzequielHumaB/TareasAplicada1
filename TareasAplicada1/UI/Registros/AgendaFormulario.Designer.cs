@@ -109,6 +109,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AgendaFormulario";
             this.Text = "Agenda";
+            this.Load += new System.EventHandler(this.AgendaFormulario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
