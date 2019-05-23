@@ -20,11 +20,6 @@ namespace TareasAplicada1.BLL
 
             int comparacion = String.Compare(palabra1,palabra2);
             return comparacion;
-            
-          /*  ArrayList sl = new ArrayList() { 1, 23.33m, "hello", DateTime.Now };
-            var result = string.Join(",", sl.ToArray()
-                .Select(o => o.ToString()));
-            lista.Sort(); */
         }
 
        

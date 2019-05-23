@@ -120,6 +120,7 @@
             this.horaToolStripMenuItem.Name = "horaToolStripMenuItem";
             this.horaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.horaToolStripMenuItem.Text = "Hora";
+            this.horaToolStripMenuItem.Click += new System.EventHandler(this.HoraToolStripMenuItem_Click);
             // 
             // Form1
             // 

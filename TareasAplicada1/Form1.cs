@@ -58,5 +58,12 @@ namespace TareasAplicada1
             ordena.Show();
 
         }
+
+        private void HoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HorasyFormatos hora = new HorasyFormatos();
+            hora.StartPosition = FormStartPosition.CenterScreen;
+            hora.Show();
+        }
     }
 }

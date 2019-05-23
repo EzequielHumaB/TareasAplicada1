@@ -78,6 +78,12 @@
     <Compile Include="UI\Registros\FactorialCapitulo5.Designer.cs">
       <DependentUpon>FactorialCapitulo5.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Registros\HorasyFormatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Registros\HorasyFormatos.Designer.cs">
+      <DependentUpon>HorasyFormatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Registros\OrdenaPalabrasFormulario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Registros\FactorialCapitulo5.resx">
       <DependentUpon>FactorialCapitulo5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Registros\HorasyFormatos.resx">
+      <DependentUpon>HorasyFormatos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Registros\OrdenaPalabrasFormulario.resx">
       <DependentUpon>OrdenaPalabrasFormulario.cs</DependentUpon>
