@@ -50,7 +50,6 @@
     <Compile Include="BLL\Capitulo7Diccionario.cs" />
     <Compile Include="BLL\Horas.cs" />
     <Compile Include="BLL\OrdenarPalabrasAlfabeticamente.cs" />
-    <Compile Include="BLL\PromedioArreglos.cs" />
     <Compile Include="BLL\SacarNumeroFactorial.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
